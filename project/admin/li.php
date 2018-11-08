@@ -1,0 +1,40 @@
+<?php
+
+session_start();
+if(!$_SESSION['email']){
+	
+	header("location: index.php");
+	
+}
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+   <head> 
+      <title>Delete id</title>
+   </head>
+        <body> 
+
+            <h1>Entry successfully done</h1>
+			 <a href="list.php">id_list</a><br>
+	   <a href="home.php">Go to slot1</a><br>
+	    <a href="home1.php">Go to slot2</a><br>
+		 <a href="home2.php">Go to slot3</a><br>
+	   
+	   <h4 align='right' style='margin-right:50px;margin-top:50px;'>
+             <a href='logout.php'>logout Here</a></h4>		
+	   
+      
+
+       </body>
+</html> 
